@@ -15,7 +15,7 @@ export default function Services() {
       <PageBanner
         title="Tutoring Services"
         description={
-          "At GenEd, we offer tutoring services for various topics, such as English for Speakers of Other Languages, K-12 General Education, and Information Technology."
+          "At GenEd, we offer tutoring services for various topics, such as English for Speakers of Other Languages, K-12 General Education, and College Essay Writing and Application Assistance."
         }
       />
       <ArticleSectionWrapper>
