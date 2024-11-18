@@ -73,7 +73,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="bg-background-100 py-2 text-center">
-        © 2023 Copyright: GenEdUSA.com
+        © 2024 Copyright: GenEdUSA.com
       </div>
     </footer>
   );
