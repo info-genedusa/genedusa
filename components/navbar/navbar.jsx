@@ -37,12 +37,14 @@ export default function MyNavbar() {
           className="sm:hidden"
         />
         <NavbarBrand>
-          <img
-            src="/logo.png"
-            className="h-12 w-12 object-contain"
-            alt="GenEdUSA Logo"
-          />
-          <p className="text-3xl text-inherit">GenEdUSA</p>
+          <Link href={menuItems[0][1]} className="text-current">
+            <img
+              src="/logo.png"
+              className="h-12 w-12 object-contain"
+              alt="GenEdUSA Logo"
+            />
+            <p className="text-3xl text-inherit">GenEdUSA</p>
+          </Link>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden sm:flex" justify="center">
