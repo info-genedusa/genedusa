@@ -4,8 +4,8 @@ const sections = [
   {
     title: "The GenEd Story",
     description: `GenEd is a tutoring service, designed with flexibility being most important.\nGenEd offers both group and one-on-one sessions, virtual and in-person options, and services to scholars of all ages and needs.\nGenEd takes a holistic approach to education, incorporating social emotional learning and mindfulness within our services.`,
-    imageSrc: "/tutoring.jpg",
-    imageAlt: "Adult teacher tutoring a child student.",
+    imageSrc: "/tutoring/home.jpg",
+    imageAlt: "Student sitting at table, giving a thumbs up.",
     buttons: [
       <Link href="/services" key="g1">
         <Button color="primary" variant="solid" size="lg">
