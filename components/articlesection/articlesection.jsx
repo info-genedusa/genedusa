@@ -17,7 +17,7 @@ export default function ArticleSection({
   return (
     <div
       id={id}
-      className="flex max-w-screen-2xl flex-col justify-between md:flex-row md:px-16 lg:px-32"
+      className="flex max-w-(--breakpoint-2xl) flex-col justify-between md:flex-row md:px-16 lg:px-32"
     >
       <div
         className={`text-center ${margin} order-2 ${
