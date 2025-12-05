@@ -1,4 +1,4 @@
-import { NextUIProvider } from "@nextui-org/react";
+import { HeroUIProvider } from "@heroui/react";
 import { ThemeProvider } from "next-themes";
 import "~/styles/globals.css";
 import AOS from "aos";
@@ -11,13 +11,13 @@ export default function App({ Component, pageProps }) {
   }, []);
 
   return (
-    <NextUIProvider>
+    <HeroUIProvider>
       <ThemeProvider defaultTheme="light">
         <Component
           className="bg-background text-foreground dark"
           {...pageProps}
         />
       </ThemeProvider>
-    </NextUIProvider>
+    </HeroUIProvider>
   );
 }

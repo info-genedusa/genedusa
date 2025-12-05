@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { useTheme } from "next-themes";
-import { Divider, Link } from "@nextui-org/react";
+import { Divider, Link } from "@heroui/react";
 import services from "~/data/services";
 import general from "~/data/general";
 import NewLineText from "../newlinetext/newlinetext";

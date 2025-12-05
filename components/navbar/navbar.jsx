@@ -13,7 +13,7 @@ import {
   DropdownItem,
   DropdownMenu,
   DropdownTrigger,
-} from "@nextui-org/react";
+} from "@heroui/react";
 
 import ThemeSwitch from "~/components/themeswitch/themeswitch";
 
