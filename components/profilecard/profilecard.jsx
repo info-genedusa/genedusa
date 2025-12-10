@@ -1,4 +1,4 @@
-import { Divider, Image, Link } from "@nextui-org/react";
+import { Divider, Image, Link } from "@heroui/react";
 
 export default function ProfileCard({
   imgSrc,

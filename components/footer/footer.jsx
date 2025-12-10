@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { useTheme } from "next-themes";
-import { Divider, Link } from "@nextui-org/react";
+import { Divider, Link } from "@heroui/react";
 import services from "~/data/services";
 import general from "~/data/general";
 import NewLineText from "../newlinetext/newlinetext";
@@ -39,7 +39,7 @@ export default function Footer() {
         </div>
       </div> */}
       <Divider />
-      <div className="flex max-w-screen-2xl flex-col items-center justify-around gap-2 self-center px-8 py-5 text-center md:flex-row md:items-start md:gap-12">
+      <div className="flex max-w-(--breakpoint-2xl) flex-col items-center justify-around gap-2 self-center px-8 py-5 text-center md:flex-row md:items-start md:gap-12">
         <div className="md:max-w-xs">
           <h2 className="font-bold">GenEdUSA</h2>
           <p>
