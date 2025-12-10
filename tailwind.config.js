@@ -2,26 +2,17 @@
 const { heroui } = require("@heroui/react");
 
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
-    },
-  },
+  content: ["./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
   plugins: [
     heroui({
       // https://www.realtimecolors.com/?colors=fef9ec-000000-136ca0-292929-813696&fonts=Poppins-Poppins
       // https://www.realtimecolors.com/?colors=130e01-ffffff-5fb9ec-fde2b4-b469c9&fonts=Poppins-Poppins
+      prefix: "heroui",
+      addCommonColors: false,
+      defaultTheme: "light",
+      defaultExtendTheme: "light",
+      layout: {},
       themes: {
         dark: {
           colors: {

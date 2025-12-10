@@ -30,14 +30,19 @@ export default function MyNavbar() {
   }
 
   return (
-    <Navbar id="navbar" position="sticky" isBordered>
+    <Navbar
+      id="navbar"
+      position="sticky"
+      isBordered
+      onMenuOpenChange={setIsMenuOpen}
+    >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           className="sm:hidden"
         />
         <NavbarBrand>
-          <Link href={menuItems[0][1]} className="text-current">
+          <Link href={menuItems[0][1]} className="flex flex-row text-current">
             <img
               src="/logo.png"
               className="h-12 w-12 object-contain"
